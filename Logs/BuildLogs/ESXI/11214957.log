@@ -1,0 +1,17 @@
+------------------------ Build download and upgrade script execution started ---------------------------------
+Build Script started at 12/10/2018 02:42:56
+
+***************Query latest build available on Buildweb and get url to download*************
+
+Found Build Download Url : http://buildweb.eng.vmware.com/ob/api/11214957/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11214957_OVF10.ova
+Found md5 from buildWeb  : B55D1A56EA9FA4EEF90DD281C38B40F5
+ovaFilename              : euc-unified-access-gateway-3.5.0.0-11214957_OVF10.ova
+Non FIPS build found!
+
+*******Check whether latest build available on buildWeb is already consumed*****
+**************New build is available, download starts*************
+ 
+Download UAG ova from Build Web using download url Start 
+Saving ova file to path      : H:\UAG-CD\Installers\euc-unified-access-gateway-3.5.0.0-11214957_OVF10.ova
+Trying to download the ova   : http://buildweb.eng.vmware.com/ob/api/11214957/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11214957_OVF10.ova 
+

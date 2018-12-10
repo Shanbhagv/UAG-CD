@@ -1,0 +1,11 @@
+Query Build web and get url to download UGA ova Start
+
+Found Build Download Url : http://buildweb.eng.vmware.com/ob/api/11155760/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11155761_OVF10-vhdx.zip
+Found md5 from buildWeb  : EEB0FD65188CE9EC61D3E3BA773EAD74
+ovaFilename              : euc-unified-access-gateway-3.5.0.0-11155761_OVF10-vhdx.zip
+Query Build web and get url to download UGA ova End 
+ 
+******Check latest build is already consumed******
+ 
+Skipping downloading ova file as the following file aleady exists : H:\UAG-CD\Installers\LastInstallerDeployed-vhdx\euc-unified-access-gateway-3.5.0.0-11155761_OVF10-vhdx.zip
+ 

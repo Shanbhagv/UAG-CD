@@ -1,0 +1,41 @@
+------------------------ Build download and upgrade script execution started ---------------------------------
+Build Script started at 12/09/2018 22:00:47
+
+***************Query latest build available on Buildweb and get url to download*************
+
+Found Build Download Url : http://buildweb.eng.vmware.com/ob/api/11201871/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ova
+Found md5 from buildWeb  : 9C7D533542018D2A872641C03C82C881
+ovaFilename              : euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ova
+Non FIPS build found!
+
+*******Check whether latest build available on buildWeb is already consumed*****
+**************New build is available, download starts*************
+ 
+Download UAG ova from Build Web using download url Start 
+Saving ova file to path      : H:\UAG-CD\Installers\euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ova
+Trying to download the ova   : http://buildweb.eng.vmware.com/ob/api/11201871/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ova 
+
+Time taken to download build : 2.45047004 minutes
+ 
+******Check if the downloded file exits******
+Pass - Downloaded file EXISTS             : H:\UAG-CD\Installers\euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ova
+Copied file to H:\UAG-CD\Installers\LastInstallerDeployed-ova to check latest build consumption in next run
+
+*****Rename downloded build to static name 'euc-unified-access-gateway.ova' just to make deployment logic simple!****
+Renamed
+*****Validate build downloded completely by Checking if the md5 of the ova file is correct***********
+md5 from buildWeb           : 9C7D533542018D2A872641C03C82C881
+md5 from file               : 9C7D533542018D2A872641C03C82C881
+
+Varified: Successfull download of latest UAG Beta Build
+Build download Script completed at 12/09/2018 22:03:23
+
+Build deployment Script started at 12/09/2018 22:03:23
+
+UAG Auto Deployment on ESXI script called
+ 
+Deployment of UAG on ESXI Complted
+ 
+Build deployment Script completed at 12/09/2018 22:54:50
+
+Time taken to deploy build on all nodes: 51.458680585 minutes

@@ -1,0 +1,1856 @@
+2018-12-09T22:31:22.307-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [SSL_DB] Using C:\Users\Administrator\AppData\Roaming\VMware\ovftool_SSLDB as SSL DB
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Subscribing to signal: 2 (SIGINT)
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Subscribing to signal: 4 (SIGILL)
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Subscribing to signal: 22 (SIGABRT)
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Subscribing to signal: 8 (SIGFPE)
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Subscribing to signal: 15 (SIGTERM)
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Initializing progress
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] OvfTool Version: VMware ovftool 4.3.0 (build-7948156)
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Using home directory: C:\Users\Administrator\AppData\Roaming\VMware\ovftool.cfg
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Curl Version: 7.58.0
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Done initializing libs
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Determining source
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Determining target
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Getting source
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing URL...
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing URL...
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Opening source
+2018-12-09T22:31:22.338-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] OvfPackageSourceBase::Open
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Manifest file present. Parsing file.
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Manifest file entry: SHA1(euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ovf) = 3ab76fdbe54be3358f66b7576f5fa110c8293565
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Manifest file entry: SHA1(euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk) = f6c07b11a0d310124e3e810853461acabc7fa57d
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Certificate file present. Validating content.
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Certificate found: -----BEGIN CERTIFICATE-----
+--> MIIDyzCCArOgAwIBAgIJAKH7xLtwMqSZMA0GCSqGSIb3DQEBBQUAME0xCzAJBgNV
+--> BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRIwEAYDVQQHEwlQYWxvIEFsdG8x
+--> FTATBgNVBAoTDFZNd2FyZSwgSW5jLjAeFw0xMDAyMjYyMjE3NDFaFw0yNjAxMDMy
+--> MjE3NDFaME0xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRIwEAYD
+--> VQQHEwlQYWxvIEFsdG8xFTATBgNVBAoTDFZNd2FyZSwgSW5jLjCCASAwDQYJKoZI
+--> hvcNAQEBBQADggENADCCAQgCggEBALU9NUtC39fqG7yo2XAswUmtli9uA+31uAMw
+--> 9FFHAEv/it8pzBQZ/4r+2bN+GnXOWhuDd1K4ApKMRvoO4LwQfZxrkx4pXrsu0gdb
+--> 4OunHw0D8MrdzSoob8Js/uq+IJ+8Bhsc6b7RzTUt9HeDWzHasAJVgMsjehGt23ay
+--> 9FKOT6dVD6D/Xi3qJnB/4t/XNS6L63dC3ea4guzKDyLaXIP5bf/m56jvVImFjhhT
+--> W2ASbnEUlZIVrEuyVcdG7e3FvZufE553JmHL0YG/0m5bIHXKRzBRx0D3HHOAzOKw
+--> kkOnxJHSTN4Hz8hSYCWvzUAjSYL3Q8qiTd7GHJ2ynsRnu3KlzKUCAQOjga8wgaww
+--> HQYDVR0OBBYEFHg8KQJdm8NPQDmYP41uEgKG+VNwMH0GA1UdIwR2MHSAFHg8KQJd
+--> m8NPQDmYP41uEgKG+VNwoVGkTzBNMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs
+--> aWZvcm5pYTESMBAGA1UEBxMJUGFsbyBBbHRvMRUwEwYDVQQKEwxWTXdhcmUsIElu
+--> Yy6CCQCh+8S7cDKkmTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQCP
+--> nVEBVF2jYEsgaTJ1v17HNTVTD5pBPfbQk/2vYVZEWL20PtJuLeSWwoo5+TnCSp69
+--> i9n1Hpm9JWHjyb1Lba8Xx7VC4FferIyxt0ivRm9l9ouo/pQAR8xyqjTg1qfr5V8S
+--> fZElKbjpzSMPrxLwF77h+YB+YjqWAJpVV+fAkAvK7K9vMiFgW60teZBxVW/XlmG0
+--> IJaSUWSI3/A+bA6fuIy8PMmpQMtm0droHrCnViAVRhMMgEC/doMH1GqUSmoiyQ1G
+--> PifLAp5wV5/HV+S9AGrb8HGdWIvW+kBgmCl0wSf2JFYm1bpq30CVE4EC0MAY1mJG
+--> vSqQGIbCybw5KTCXRQ8d
+--> -----END CERTIFICATE-----
+--> 
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Using Windows certificate repository
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Using certificate repository at C:\Program Files (x86)\VMware\VMware OVF Tool\certs
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Locator: euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ovf, expected digest: 3ab76fdbe54be3358f66b7576f5fa110c8293565
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Got digest from reader factory: locator = euc-unified-access-gateway-3.5.0.0-11201871_OVF10.ovf, digest = unknown
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Verifying that the files references in manifest are valid
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] ApplyOvfTransformations with ovfRewriter started
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] ApplyExtraConfig started
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Setting extra config...
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Filtering extra config
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] The command line option --allowExtraConfig is specified: false
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] The command line option --exportFlags=extraconfig is specified: false
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] OvfPackageSourceBase parsing message bundle
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Validating files
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Getting target
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Connecting to vi host atl-vc-rnd1.vmware.com
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Enable SSL verification
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=HttpConnectionPool-000000] HttpConnectionPoolImpl created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2018-12-09T22:31:22.354-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Found local version 6.7 by vmodl name vim.version.version12
+2018-12-09T22:31:22.385-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Local and Remote Version are the same. Talking with version vim.version.version12
+2018-12-09T22:31:22.385-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Using VIM API version: 6.7
+2018-12-09T22:31:22.401-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Determine if server is a standalone host or vpxd
+2018-12-09T22:31:22.401-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] VI API type: VirtualCenter
+2018-12-09T22:31:22.401-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Login to server based on username and password
+2018-12-09T22:31:22.401-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Setting VI connection message locale (via login) to: 
+2018-12-09T22:31:22.401-05:00 verbose OVFTool[07244] [Originator@6876 sub=HttpConnectionPool-000001] HttpConnectionPoolImpl created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2018-12-09T22:31:22.479-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Setup nfcService, used to get a ticket for uploading/downloading a disk.
+2018-12-09T22:31:22.479-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Get host or vc sslthumpprint.
+2018-12-09T22:31:22.479-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Keeping VI session alive
+2018-12-09T22:31:22.479-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:22.495-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Ovf converter is executing
+2018-12-09T22:31:22.495-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Starting Ovf convertion...
+2018-12-09T22:31:22.495-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] OVF source Descriptor: <?xml version="1.0" encoding="UTF-8"?>
+--> <ovf:Envelope xmlns="http://schemas.dmtf.org/ovf/envelope/1" xmlns:ovf="http://schemas.dmtf.org/ovf/envelope/1" xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData" xmlns:vmw="http://www.vmware.com/schema/ovf" xmlns:vssd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_VirtualSystemSettingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+-->   <References>
+-->     <File ovf:href="euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk" ovf:id="euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk_id" ovf:size="2350111232"/>
+-->   </References>
+-->   <DeploymentOptionSection>
+-->     <Info>The list of deployment options</Info>
+-->     <Configuration ovf:id="onenic">
+-->       <Label>Single NIC</Label>
+-->       <Description>Deploy VM configured with 1 vNIC, 2 core and 4GB RAM. All servers listen on the same network interface.</Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="twonic">
+-->       <Label>Two NIC</Label>
+-->       <Description>Deploy VM configured with 2 vNICs, 2 core and 4GB RAM. The first NIC is Internet facing while the second NIC is used for a management network that hosts the administrative REST API.</Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="threenic">
+-->       <Label>Three NIC</Label>
+-->       <Description>Deploy VM configured with 3 vNICs, 2 core and 4GB RAM. The first NIC is Internet facing while the second NIC is used for a management network that hosts the administrative REST API. The third NIC is used to route traffic to backend services.</Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="onenic-large">
+-->       <Label>Single NIC - Large</Label>
+-->       <Description>Deploy VM configured with 1 vNIC, 4 core and 16GB RAM. All servers listen on the same network interface.</Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="twonic-large">
+-->       <Label>Two NIC - Large</Label>
+-->       <Description>Deploy VM configured with 2 vNICs, 4 core and 16GB RAM. The first NIC is Internet facing while the second NIC is used for a management network that hosts the administrative REST API.</Description>
+-->     </Configuration>
+-->     <Configuration ovf:id="threenic-large">
+-->       <Label>Three NIC - Large</Label>
+-->       <Description>Deploy VM configured with 3 vNICs, 4 core and 16GB RAM. The first NIC is Internet facing while the second NIC is used for a management network that hosts the administrative REST API. The third NIC is used to route traffic to backend services.</Description>
+-->     </Configuration>
+-->   </DeploymentOptionSection>
+-->   <NetworkSection>
+-->     <Info>List of logical networks used in the package</Info>
+-->     <Network ovf:configuration="onenic twonic threenic onenic-large twonic-large threenic-large" ovf:name="Internet">
+-->       <Description>The Internet facing network</Description>
+-->     </Network>
+-->     <Network ovf:configuration="twonic threenic twonic-large threenic-large" ovf:name="ManagementNetwork">
+-->       <Description>The management network used for accessing the administration REST API.</Description>
+-->     </Network>
+-->     <Network ovf:configuration="threenic threenic-large" ovf:name="BackendNetwork">
+-->       <Description>The backend network use by the UAG to access backend services.</Description>
+-->     </Network>
+-->   </NetworkSection>
+-->   <vmw:IpAssignmentSection ovf:required="false" vmw:protocols="IPv4,IPv6" vmw:schemes="">
+-->     <Info>Supported IP assignment schemes</Info>
+-->   </vmw:IpAssignmentSection>
+-->   <DiskSection>
+-->     <Info>List of the virtual disks and partitions needed</Info>
+-->     <Disk ovf:capacity="20" ovf:capacityAllocationUnits="byte * 2^30" ovf:diskId="system" ovf:fileRef="euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk_id" ovf:format="http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized" ovf:populatedSize="3246653440"/>
+-->   </DiskSection>
+-->   <VirtualSystem ovf:id="EUC_Unified_Access_Gateway">
+-->     <Info>A virtual machine</Info>
+-->     <ProductSection ovf:required="false">
+-->       <Info>VM ISV branding information</Info>
+-->       <Product>EUC Unified Access Gateway</Product>
+-->       <Vendor>VMware, Inc.</Vendor>
+-->       <!--
+-->                     Version is the actual product version in the
+-->                     form X.X.X.X where X is an unsigned 16-bit integer.
+--> 
+-->                     FullVersion is a descriptive version string
+-->                     including, for example, alpha or beta designations
+-->                     and other release criteria.
+-->                 -->
+--> 
+-->       <Version>3.5.0.0</Version>
+-->       <FullVersion>3.5.0.0 Build 11201871</FullVersion>
+-->       <ProductUrl/>
+-->       <VendorUrl>http://www.vmware.com</VendorUrl>
+-->       <AppUrl/>
+-->       <Category>Networking Properties</Category>
+-->       <Property ovf:key="ipMode0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>IPMode for NIC 1 (eth0)</Label>
+-->         <Description>Possible values: STATICV4 / STATICV6 / DHCPV4 / DHCPV6 / AUTOV6 / STATICV4+STATICV6 / STATICV4+DHCPV6 / STATICV4+AUTOV6 / DHCPV4+STATICV6 / DHCPV4+DHCPV6 / DHCPV4+AUTOV6
+--> 
+--> 				If you choose STATICV4/STATICV6 option, enter IPv4/IPv6 address, netmask/prefix for respective NIC and an optional IPv4/IPv6 default gateway. If left blank, defaults to DHCPV4+DHCPV6 for IP address allocation.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="ipMode1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>IPMode for NIC 2 (eth1)</Label>
+-->         <Description>Possible values: STATICV4 / STATICV6 / DHCPV4 / DHCPV6 / AUTOV6 / STATICV4+STATICV6 / STATICV4+DHCPV6 / STATICV4+AUTOV6 / DHCPV4+STATICV6 / DHCPV4+DHCPV6 / DHCPV4+AUTOV6
+--> 
+--> 				If you choose STATICV4/STATICV6 option, enter IPv4/IPv6 address, netmask/prefix for respective NIC and an optional IPv4/IPv6 default gateway. If left blank, defaults to DHCPV4+DHCPV6 for IP address allocation.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="ipMode2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>IPMode for NIC 3 (eth2)</Label>
+-->         <Description>Possible values: STATICV4 / STATICV6 / DHCPV4 / DHCPV6 / AUTOV6 / STATICV4+STATICV6 / STATICV4+DHCPV6 / STATICV4+AUTOV6 / DHCPV4+STATICV6 / DHCPV4+DHCPV6 / DHCPV4+AUTOV6
+--> 
+--> 				If you choose STATICV4/STATICV6 option, enter IPv4/IPv6 address, netmask/prefix for respective NIC and an optional IPv4/IPv6 default gateway. If left blank, defaults to DHCPV4+DHCPV6 for IP address allocation.</Description>
+-->       </Property>
+-->       <Property ovf:key="forwardrules" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Comma separated list of forward rules in the form {tcp|udp}/listening-port-number/destination-ip-address:destination-port-number</Label>
+-->         <Description>(IPv4 example: tcp/5262/10.110.92.129:9443,tcp/5263/10.20.30.50:7443)</Description>
+-->       </Property>
+-->       <Property ovf:key="ip0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 1 (eth0) IPv4 address:</Label>
+-->         <Description>Enter the IPv4 address for NIC 1, which is used for internet network interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="routes0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>List of IPv4 custom routes for NIC 1 (eth0)</Label>
+-->         <Description>Comma separated list of IPv4 custom routes for NIC 1 (eth0) in the form ipv4-network-address/bits ipv4-gateway-address OR ipv4-network-address/bits.
+--> 
+--> 				For example: 20.2.0.0/16 10.2.0.1, 20.9.0.0/16 10.2.0.2, 10.2.0.1/32</Description>
+-->       </Property>
+-->       <Property ovf:key="v6ip0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 1 (eth0) IPv6 address:</Label>
+-->         <Description>Enter the IPv6 address for NIC 1, which is used for internet network interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="v6Routes0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>List of IPv6 custom routes for NIC 1 (eth0)</Label>
+-->         <Description>Comma separated list of IPv6 custom routes for NIC 1 (eth0) in the form ipv6-network-address/prefix ipv6-gateway-address
+--> 
+--> 				For example: fc00:10:112:111::/64 fc00:10:112:111::253, fe80::250:56ff:fe84:ed2f/64 fe80::21c:f9ff:fe75:2800</Description>
+-->       </Property>
+-->       <Property ovf:key="DNS" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>DNS server addresses</Label>
+-->         <Description>Enter space-separated IPv4/IPv6 addresses of the domain name servers for this VM (example:  192.0.2.1 192.0.2.2) for ipv4 (example: fc00:10:112:54::1) for ipv6</Description>
+-->       </Property>
+-->       <Property ovf:key="netmask0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 1 (eth0) IPv4 netmask</Label>
+-->         <Description>The IPv4 netmask for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="forceNetmask0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 1 (eth0) IPv4 overriding netmask</Label>
+-->         <Description>The overriden IPv4 netmask for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="ipv6prefix0" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>NIC 1 (eth0) IPv6 netmask/prefix</Label>
+-->         <Description>IPv6 netmask or prefix for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="forceIpv6Prefix0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 1 (eth0) IPv6 overriding netmask/prefix</Label>
+-->         <Description>The overriding IPv6 prefix for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:key="gateway0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 1 (eth0) IPv4 gateway</Label>
+-->         <Description>The default gateway address for this VM.</Description>
+-->       </Property>
+-->       <Property ovf:key="DNS0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Internet DNS</Label>
+-->         <Description>The domain name servers for this VM (comma separated).</Description>
+-->       </Property>
+-->       <Property ovf:key="defaultGateway" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>IPv4 Default Gateway</Label>
+-->         <Description>The default gateway address.</Description>
+-->       </Property>
+-->       <Property ovf:key="v6DefaultGateway" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>IPv6 Default Gateway</Label>
+-->         <Description>The default gateway address.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="ip1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 2 (eth1) IPv4 address:</Label>
+-->         <Description>Enter the IPv4 address for NIC 2, which is used for management network interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="routes1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>List of IPv4 custom routes for NIC 2 (eth1)</Label>
+-->         <Description>Comma separated list of IPv4 custom routes for NIC 2 (eth1) in the form ipv4-network-address/bits ipv4-gateway-address OR ipv4-network-address/bits
+--> 
+--> 				For example: 20.2.0.0/16 10.2.0.1, 20.9.0.0/16 10.2.0.2, 10.2.0.1/32</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="v6ip1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 2 (eth1) IPv6 address:</Label>
+-->         <Description>Enter the IPv6 address for NIC 2, which is used for management network interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="v6Routes1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>List of IPv6 custom routes for NIC 2 (eth1)</Label>
+-->         <Description>Comma separated list of IPv6 custom routes for NIC 2 (eth1) in the form ipv6-network-address/prefix ipv6-gateway-address
+--> 
+--> 				For example: fc00:10:112:111::/64 fc00:10:112:111::253, fe80::250:56ff:fe84:ed2f/64 fe80::21c:f9ff:fe75:2800</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="netmask1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 2 (eth1) IPv4 netmask</Label>
+-->         <Description>IPv4 netmask for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="forceNetmask1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 2 (eth1) IPv4 overriding netmask</Label>
+-->         <Description>The overriding IPv4 netmask for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="ipv6prefix1" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>NIC 2 (eth1) IPv6 netmask/prefix</Label>
+-->         <Description>IPv6 netmask or prefix for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="forceIpv6Prefix1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 2 (eth1) IPv6 overriding netmask/prefix</Label>
+-->         <Description>The overriding IPv6 prefix for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="twonic threenic twonic-large threenic-large" ovf:key="gateway1" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 2 (eth1) IPv4 gateway</Label>
+-->         <Description>The default gateway address for this VM.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="ip2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 3 (eth2) IPv4 address:</Label>
+-->         <Description>Enter the IPv4 address for NIC 3, which is used for for the backend network interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="routes2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>List of IPv4 custom routes for NIC 3 (eth2)</Label>
+-->         <Description>Comma separated list of IPv4 custom routes for NIC 3 (eth2) in the form ipv4-network-address/bits ipv4-gateway-address OR ipv4-network-address/bits
+--> 
+--> 				For example: 20.2.0.0/16 10.2.0.1, 20.9.0.0/16 10.2.0.2, 10.2.0.1/32</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="v6ip2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 3 (eth2) IPv6 address:</Label>
+-->         <Description>Enter the IPv6 address for NIC 3, which is used for for the backend network interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="v6Routes2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>List of IPv6 custom routes for NIC 3 (eth2)</Label>
+-->         <Description>Comma separated list of IPv6 custom routes for NIC 3 (eth2) in the form ipv6-network-address/prefix ipv6-gateway-address
+--> 
+--> 				For example: fc00:10:112:111::/64 fc00:10:112:111::253, fe80::250:56ff:fe84:ed2f/64 fe80::21c:f9ff:fe75:2800</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="netmask2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 3 (eth2) IPv4 netmask</Label>
+-->         <Description>IPv4 netmask for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="forceNetmask2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 3 (eth2) IPv4 overriding netmask</Label>
+-->         <Description>The overriding IPv4 netmask for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="ipv6prefix2" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>NIC 3 (eth2) IPv6 netmask/prefix</Label>
+-->         <Description>IPv6 netmask or prefix for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="forceIpv6Prefix2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 3 (eth2) IPv6 overriding netmask/prefix</Label>
+-->         <Description>The overriding IPv6 prefix for this interface.</Description>
+-->       </Property>
+-->       <Property ovf:configuration="threenic threenic-large" ovf:key="gateway2" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NIC 3 (eth2) IPv4 gateway</Label>
+-->         <Description>The default gateway address for this VM.</Description>
+-->       </Property>
+-->       <Property ovf:key="uagName" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Unified Gateway Appliance Name</Label>
+-->         <Description>Name of the UAG appliance for identification</Description>
+-->       </Property>
+-->       <Property ovf:key="tlsPortSharingEnabled" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="true">
+-->         <Label>TLS Port 443 Sharing</Label>
+-->         <Description>Enable TLS port 443 sharing with HA Proxy</Description>
+-->       </Property>
+-->       <Category>Join CEIP</Category>
+-->       <Property ovf:key="ceipEnabled" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="true">
+-->         <Label>Join the VMware Customer Experience Improvement Program</Label>
+-->         <Description>VMware&apos;s Customer Experience Improvement Program (&quot;CEIP&quot;) provides VMware with information that enables VMware to improve its products and services, to fix problems, and to advise you on how best to deploy and use our products.  As part of the CEIP, VMware collects technical information about your organization&apos;s use of VMware products and services on a regular basis in association with your organization&apos;s VMware license key(s).  This information does not personally identify any individual.
+--> 
+--> 			Additional information regarding the data collected through CEIP and the purposes for which it is used by VMware is set forth in the Trust and Assurance Center at http://www.vmware.com/trustvmware/ceip.html.
+--> 
+--> 				If you prefer not to participate in VMware&apos;s CEIP for this product, you should uncheck the box below. You may join or leave VMware&apos;s CEIP for this product at any time.
+-->             </Description>
+-->       </Property>
+-->       <Category>Password Options</Category>
+-->       <Property ovf:key="rootPassword" ovf:password="true" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Password for the root user of this VM</Label>
+-->         <Description/>
+-->       </Property>
+-->       <Property ovf:key="adminPassword" ovf:password="true" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Password for the admin user, which enables REST API access</Label>
+-->         <Description>Passwords must be at least 8 characters long, contain at least one uppercase and one lowercase letter, one digit, and one special character, which includes ! @ # $ % * ( ).
+--> 
+--> 				Warning: IF YOU LEAVE THE PASSWORD BLANK, AN ADMIN UI USER WILL NOT BE CREATED, AND YOU WILL NOT BE ABLE TO CONFIGURE ANY SETTINGS ON THE APPLIANCE. YOU WILL HAVE TO REDEPLOY THE UAG APPLIANCE WITH A PASSWORD TO USE THE ADMIN UI.
+--> 			</Description>
+-->       </Property>
+-->       <Category>System Properties</Category>
+-->       <Property ovf:key="syslogUrl" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Syslog server URL:</Label>
+-->         <Description>(Optional) The URL must contain the protocol, host name or IP address, and port number
+--> 				(example: syslog.example.com:514) of the syslog server that logs UAG events.
+-->             </Description>
+-->       </Property>
+-->       <Property ovf:key="fipsEnabled" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="false">
+-->         <Label>Enabling FIPS mode</Label>
+-->         <Description>A boolean which governs FIPS mode being enabled/disabled in UAG&apos;s OVA file</Description>
+-->       </Property>
+-->       <Property ovf:key="licenseEdition" ovf:qualifiers="ValueMap{&quot;Standard&quot;, &quot;Advanced&quot;, &quot;Enterprise&quot;}" ovf:type="string" ovf:userConfigurable="true" ovf:value="Advanced">
+-->         <Label>Select UAG edition to deploy</Label>
+-->         <Description>Please select the UAG license edition based on the Horizon/Workspace ONE licensing. UAG Enterprise edition includes all UAG features</Description>
+-->       </Property>
+-->       <Property ovf:key="managementAppliance" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="false">
+-->         <Label>Management Appliance</Label>
+-->         <Description>A boolean which indicates if this is Management Appliance or UAG</Description>
+-->       </Property>
+-->       <Property ovf:key="managementApplianceCert" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Management Appliance Cert</Label>
+-->         <Description>Management Appliance Cert</Description>
+-->       </Property>
+-->       <Property ovf:key="settingsJSON" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Settings JSON</Label>
+-->         <Description>A JSON string that defines the complete Unified Access Gateway configuration via the Settings resource in
+-->                 the REST API. These settings are applied after all others.
+-->             </Description>
+-->       </Property>
+-->       <Property ovf:key="vm.vmname" ovf:type="string" ovf:userConfigurable="true" ovf:value="EUC_Unified_Access_Gateway">
+-->         <Label>VM Name</Label>
+-->       </Property>
+-->     </ProductSection>
+-->     <ProductSection ovf:class="vami" ovf:instance="EUC_Unified_Access_Gateway" ovf:required="false">
+-->       <Info>VAMI Properties</Info>
+-->     </ProductSection>
+-->     <ProductSection ovf:class="vm" ovf:required="false">
+-->       <Info>VM specific properties</Info>
+-->     </ProductSection>
+-->     <AnnotationSection>
+-->       <Info/>
+-->       <Annotation>EUC Unified Access Gateway</Annotation>
+-->     </AnnotationSection>
+-->     <OperatingSystemSection ovf:id="100" ovf:version="1" vmw:osType="other3xLinux64Guest">
+-->       <Info>Guest Operating System</Info>
+-->       <Description>Photon OS</Description>
+-->     </OperatingSystemSection>
+-->     <VirtualHardwareSection ovf:required="false" ovf:transport="com.vmware.guestInfo">
+-->       <Info>Virtual Hardware Requirements</Info>
+-->       <System>
+-->         <vssd:ElementName>Virtual Hardware Family</vssd:ElementName>
+-->         <vssd:InstanceID>0</vssd:InstanceID>
+-->         <vssd:VirtualSystemType>vmx-08,vmx-09,vmx-10</vssd:VirtualSystemType>
+-->       </System>
+-->       <Item ovf:configuration="onenic twonic threenic">
+-->         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2 virtual CPUs</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>2</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="onenic-large twonic-large threenic-large">
+-->         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4 virtual CPUs</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>4</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="onenic twonic threenic">
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4096 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>4096</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item ovf:configuration="onenic-large twonic-large threenic-large">
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">16384 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>16384</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address>0</rasd:Address>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">IDE Controller 0</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">3</rasd:InstanceID>
+-->         <rasd:ResourceType>5</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">CD/DVD Drive 1</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4</rasd:InstanceID>
+-->         <rasd:Parent>3</rasd:Parent>
+-->         <rasd:ResourceSubType>vmware.cdrom.remotepassthrough</rasd:ResourceSubType>
+-->         <rasd:ResourceType>15</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">0</rasd:Address>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">SCSI Controller 0 - LSI Logic</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">5</rasd:InstanceID>
+-->         <rasd:ResourceSubType>lsilogic</rasd:ResourceSubType>
+-->         <rasd:ResourceType>6</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Harddisk 1</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/disk/system</rasd:HostResource>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">6</rasd:InstanceID>
+-->         <rasd:Parent>5</rasd:Parent>
+-->         <rasd:ResourceType>17</rasd:ResourceType>
+-->       </Item>
+-->       <Item ovf:configuration="onenic twonic threenic onenic-large twonic-large threenic-large">
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:Connection>Internet</rasd:Connection>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Ethernet adapter on &quot;Internet&quot;</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">7</rasd:InstanceID>
+-->         <rasd:ResourceSubType>VmxNet3</rasd:ResourceSubType>
+-->         <rasd:ResourceType>10</rasd:ResourceType>
+-->       </Item>
+-->       <Item ovf:configuration="twonic threenic twonic-large threenic-large">
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:Connection>ManagementNetwork</rasd:Connection>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Ethernet adapter on &quot;Management Network&quot;</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">8</rasd:InstanceID>
+-->         <rasd:ResourceSubType>VmxNet3</rasd:ResourceSubType>
+-->         <rasd:ResourceType>10</rasd:ResourceType>
+-->       </Item>
+-->       <Item ovf:configuration="threenic threenic-large">
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:Connection>BackendNetwork</rasd:Connection>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Ethernet adapter on &quot;Backend Network&quot;</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">9</rasd:InstanceID>
+-->         <rasd:ResourceSubType>VmxNet3</rasd:ResourceSubType>
+-->         <rasd:ResourceType>10</rasd:ResourceType>
+-->       </Item>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.syncTimeWithHost" vmw:value="TRUE"/>
+-->     </VirtualHardwareSection>
+-->   </VirtualSystem>
+--> </ovf:Envelope>
+2018-12-09T22:31:22.495-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Vi4Target put descriptor
+2018-12-09T22:31:23.798-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Hostsystem used as deploy target: vim.HostSystem:host-3493
+2018-12-09T22:31:23.926-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the networks from the ConfigTarget...
+2018-12-09T22:31:23.926-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the opaque networks from the ConfigTarget...
+2018-12-09T22:31:23.926-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the DVPs from the ConfigTarget...
+2018-12-09T22:31:23.941-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.84.0%2f22 - Dev Servers 7] = 172.16.84.0%2f22 - Dev Servers 7
+2018-12-09T22:31:23.941-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.66.0%2f23 - Dev Servers 2] = 172.16.66.0%2f23 - Dev Servers 2
+2018-12-09T22:31:23.941-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Found uplink portgroups 'Dev 2.0  - Uplink'. Ignored.
+2018-12-09T22:31:23.957-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.76.0%2f23 - OVF Deploy] = 172.16.76.0%2f23 - OVF Deploy
+2018-12-09T22:31:23.957-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.76.0%2f23 - Integration Auto] = 172.16.76.0%2f23 - Integration Auto
+2018-12-09T22:31:23.957-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.68.0%2f23 - Dev Servers 3] = 172.16.68.0%2f23 - Dev Servers 3
+2018-12-09T22:31:23.972-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.80.0%2f23 - Dev Automation] = 172.16.80.0%2f23 - Dev Automation
+2018-12-09T22:31:23.972-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.74.0%2f23 - QE Automation] = 172.16.74.0%2f23 - QE Automation
+2018-12-09T22:31:23.972-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.64.0%2f23 - Dev Servers 1] = 172.16.64.0%2f23 - Dev Servers 1
+2018-12-09T22:31:23.988-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.78.0%2f23 - Dev Servers 5] = 172.16.78.0%2f23 - Dev Servers 5
+2018-12-09T22:31:23.988-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.88.0%2f22 - Dev Servers 8] = 172.16.88.0%2f22 - Dev Servers 8
+2018-12-09T22:31:23.988-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.70.0%2f23 - Dev Servers 4] = 172.16.70.0%2f23 - Dev Servers 4
+2018-12-09T22:31:23.988-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[172.16.82.0%2f23 - Dev Servers 6] = 172.16.82.0%2f23 - Dev Servers 6
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] ovfNetworkNames='BackendNetwork'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] ovfNetworkNames='Internet'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] ovfNetworkNames='ManagementNetwork'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.64.0%2f23 - Dev Servers 1'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.66.0%2f23 - Dev Servers 2'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.68.0%2f23 - Dev Servers 3'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.70.0%2f23 - Dev Servers 4'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.74.0%2f23 - QE Automation'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.76.0%2f23 - Integration Auto'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.76.0%2f23 - OVF Deploy'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.78.0%2f23 - Dev Servers 5'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.80.0%2f23 - Dev Automation'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.82.0%2f23 - Dev Servers 6'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.84.0%2f22 - Dev Servers 7'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='172.16.88.0%2f22 - Dev Servers 8'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] Validate network mapping: src = 'BackendNetwork', dst = '172.16.66.0%2f23 - Dev Servers 2'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] Validate network mapping: src = 'Internet', dst = '172.16.66.0%2f23 - Dev Servers 2'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] Validate network mapping: src = 'ManagementNetwork', dst = '172.16.66.0%2f23 - Dev Servers 2'
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 4.1...
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 5.0...
+2018-12-09T22:31:24.004-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 5.0 -> 5.0.0
+2018-12-09T22:31:24.129-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] CreateImportSpecResult:
+--> (vim.OvfManager.CreateImportSpecResult) {
+-->    importSpec = (vim.vm.VmImportSpec) {
+-->       entityConfig = (vim.vApp.EntityConfigInfo) {
+-->          key = <unset>, 
+-->          tag = "non-stanb", 
+-->          startOrder = <unset>, 
+-->          startDelay = <unset>, 
+-->          waitingForGuest = <unset>, 
+-->          startAction = <unset>, 
+-->          stopDelay = <unset>, 
+-->          stopAction = <unset>, 
+-->          destroyWithParent = <unset>
+-->       }, 
+-->       instantiationOst = (vim.OvfConsumer.OstNode) {
+-->          id = "", 
+-->          type = "envelope", 
+-->          section = <unset>, 
+-->          child = (vim.OvfConsumer.OstNode) [
+-->             (vim.OvfConsumer.OstNode) {
+-->                id = "non-stanb", 
+-->                type = "virtualSystem", 
+-->                section = <unset>, 
+-->                child = <unset>, 
+-->                entity = <unset>
+-->             }
+-->          ], 
+-->          entity = <unset>
+-->       }, 
+-->       configSpec = (vim.vm.ConfigSpec) {
+-->          changeVersion = <unset>, 
+-->          name = "non-stanb", 
+-->          version = "vmx-10", 
+-->          createDate = <unset>, 
+-->          uuid = <unset>, 
+-->          instanceUuid = <unset>, 
+-->          npivNodeWorldWideName = <unset>, 
+-->          npivPortWorldWideName = <unset>, 
+-->          npivWorldWideNameType = <unset>, 
+-->          npivDesiredNodeWwns = <unset>, 
+-->          npivDesiredPortWwns = <unset>, 
+-->          npivTemporaryDisabled = <unset>, 
+-->          npivOnNonRdmDisks = <unset>, 
+-->          npivWorldWideNameOp = <unset>, 
+-->          locationId = <unset>, 
+-->          guestId = "other3xLinux64Guest", 
+-->          alternateGuestName = <unset>, 
+-->          annotation = "EUC Unified Access Gateway", 
+-->          files = (vim.vm.FileInfo) {
+-->             vmPathName = "[atl-vnx0988-rnd-dev2-lun50]", 
+-->             snapshotDirectory = <unset>, 
+-->             suspendDirectory = <unset>, 
+-->             logDirectory = <unset>, 
+-->             ftMetadataDirectory = <unset>
+-->          }, 
+-->          tools = (vim.vm.ToolsConfigInfo) {
+-->             toolsVersion = <unset>, 
+-->             toolsInstallType = <unset>, 
+-->             afterPowerOn = true, 
+-->             afterResume = true, 
+-->             beforeGuestStandby = true, 
+-->             beforeGuestShutdown = true, 
+-->             beforeGuestReboot = true, 
+-->             toolsUpgradePolicy = <unset>, 
+-->             pendingCustomization = <unset>, 
+-->             customizationKeyId = (vim.encryption.CryptoKeyId) null, 
+-->             syncTimeWithHost = true, 
+-->             lastInstallInfo = (vim.vm.ToolsConfigInfo.ToolsLastInstallInfo) null, 
+-->             upgradeRebootPredict = <unset>
+-->          }, 
+-->          flags = (vim.vm.FlagInfo) null, 
+-->          consolePreferences = (vim.vm.ConsolePreferences) null, 
+-->          powerOpInfo = (vim.vm.DefaultPowerOpInfo) null, 
+-->          numCPUs = 2, 
+-->          numCoresPerSocket = 1, 
+-->          memoryMB = 4096, 
+-->          memoryHotAddEnabled = <unset>, 
+-->          cpuHotAddEnabled = <unset>, 
+-->          cpuHotRemoveEnabled = <unset>, 
+-->          virtualICH7MPresent = <unset>, 
+-->          virtualSMCPresent = <unset>, 
+-->          deviceChange = (vim.vm.device.VirtualDeviceSpec) [
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualCdrom) {
+-->                   key = -100, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualCdrom.RemotePassthroughBackingInfo) {
+-->                      deviceName = "CD/DVD drive 0", 
+-->                      useAutoDetect = <unset>, 
+-->                      exclusive = false
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = true, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = 200, 
+-->                   unitNumber = 0
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualIDEController) {
+-->                   key = 200, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDevice.BackingInfo) null, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   busNumber = 0, 
+-->                   device = (int) [
+-->                      -100
+-->                   ]
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = "create", 
+-->                device = (vim.vm.device.VirtualDisk) {
+-->                   key = -102, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) {
+-->                      fileName = "", 
+-->                      datastore = <unset>, 
+-->                      backingObjectId = <unset>, 
+-->                      diskMode = "persistent", 
+-->                      split = false, 
+-->                      writeThrough = <unset>, 
+-->                      thinProvisioned = true, 
+-->                      eagerlyScrub = false, 
+-->                      uuid = <unset>, 
+-->                      contentId = <unset>, 
+-->                      changeId = <unset>, 
+-->                      parent = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) null, 
+-->                      deltaDiskFormat = <unset>, 
+-->                      digestEnabled = <unset>, 
+-->                      deltaGrainSize = <unset>, 
+-->                      deltaDiskFormatVariant = <unset>, 
+-->                      sharing = <unset>, 
+-->                      keyId = (vim.encryption.CryptoKeyId) null
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = -101, 
+-->                   unitNumber = 0, 
+-->                   capacityInKB = 20971520, 
+-->                   capacityInBytes = <unset>, 
+-->                   shares = (vim.SharesInfo) null, 
+-->                   storageIOAllocation = (vim.StorageResourceManager.IOAllocationInfo) null, 
+-->                   diskObjectId = <unset>, 
+-->                   vFlashCacheConfigInfo = (vim.vm.device.VirtualDisk.VFlashCacheConfigInfo) null, 
+-->                   iofilter = <unset>, 
+-->                   vDiskId = (vim.vslm.ID) null, 
+-->                   virtualDiskFormat = <unset>, 
+-->                   nativeUnmanagedLinkedClone = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualLsiLogicController) {
+-->                   key = -101, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDevice.BackingInfo) null, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   busNumber = 0, 
+-->                   device = (int) [
+-->                      -102
+-->                   ], 
+-->                   hotAddRemove = <unset>, 
+-->                   sharedBus = "noSharing", 
+-->                   scsiCtlrUnitNumber = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualVmxnet3) {
+-->                   dynamicProperty = <unset>, 
+-->                   key = -103, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualEthernetCard.DistributedVirtualPortBackingInfo) {
+-->                      port = (vim.dvs.PortConnection) {
+-->                         switchUuid = "2d 19 01 50 50 03 94 d2-28 a2 78 6b 7f 14 7c ca", 
+-->                         portgroupKey = "dvportgroup-1222", 
+-->                         portKey = <unset>, 
+-->                         connectionCookie = <unset>
+-->                      }
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = true, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   addressType = "generated", 
+-->                   macAddress = <unset>, 
+-->                   wakeOnLanEnabled = true, 
+-->                   resourceAllocation = (vim.vm.device.VirtualEthernetCard.ResourceAllocation) null, 
+-->                   externalId = <unset>, 
+-->                   uptCompatibilityEnabled = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null
+-->             }
+-->          ], 
+-->          cpuAllocation = (vim.ResourceAllocationInfo) null, 
+-->          memoryAllocation = (vim.ResourceAllocationInfo) null, 
+-->          latencySensitivity = (vim.LatencySensitivity) null, 
+-->          cpuAffinity = (vim.vm.AffinityInfo) null, 
+-->          memoryAffinity = (vim.vm.AffinityInfo) null, 
+-->          networkShaper = (vim.vm.NetworkShaperInfo) null, 
+-->          cpuFeatureMask = <unset>, 
+-->          extraConfig = <unset>, 
+-->          swapPlacement = <unset>, 
+-->          bootOptions = (vim.vm.BootOptions) null, 
+-->          vAppConfig = (vim.vApp.VmConfigSpec) {
+-->             product = (vim.vApp.ProductSpec) [
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 0, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      name = "EUC Unified Access Gateway", 
+-->                      vendor = "VMware, Inc.", 
+-->                      version = "3.5.0.0", 
+-->                      fullVersion = "3.5.0.0 Build 11201871", 
+-->                      vendorUrl = "http://www.vmware.com", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }, 
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 1, 
+-->                      classId = "vami", 
+-->                      instanceId = "EUC_Unified_Access_Gateway", 
+-->                      name = "", 
+-->                      vendor = "", 
+-->                      version = "", 
+-->                      fullVersion = "", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }, 
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 2, 
+-->                      classId = "vm", 
+-->                      instanceId = "", 
+-->                      name = "", 
+-->                      vendor = "", 
+-->                      version = "", 
+-->                      fullVersion = "", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }
+-->             ], 
+-->             property = (vim.vApp.PropertySpec) [
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 0, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ipMode0", 
+-->                      category = "Networking Properties", 
+-->                      label = "IPMode for NIC 1 (eth0)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "STATICV4", 
+-->                      description = "Possible values: STATICV4 / STATICV6 / DHCPV4 / DHCPV6 / AUTOV6 / STATICV4+STATICV6 / STATICV4+DHCPV6 / STATICV4+AUTOV6 / DHCPV4+STATICV6 / DHCPV4+DHCPV6 / DHCPV4+AUTOV6
+--> 
+--> 				If you choose STATICV4/STATICV6 option, enter IPv4/IPv6 address, netmask/prefix for respective NIC and an optional IPv4/IPv6 default gateway. If left blank, defaults to DHCPV4+DHCPV6 for IP address allocation."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 1, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ipMode1", 
+-->                      category = "Networking Properties", 
+-->                      label = "IPMode for NIC 2 (eth1)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Possible values: STATICV4 / STATICV6 / DHCPV4 / DHCPV6 / AUTOV6 / STATICV4+STATICV6 / STATICV4+DHCPV6 / STATICV4+AUTOV6 / DHCPV4+STATICV6 / DHCPV4+DHCPV6 / DHCPV4+AUTOV6
+--> 
+--> 				If you choose STATICV4/STATICV6 option, enter IPv4/IPv6 address, netmask/prefix for respective NIC and an optional IPv4/IPv6 default gateway. If left blank, defaults to DHCPV4+DHCPV6 for IP address allocation."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 2, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ipMode2", 
+-->                      category = "Networking Properties", 
+-->                      label = "IPMode for NIC 3 (eth2)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Possible values: STATICV4 / STATICV6 / DHCPV4 / DHCPV6 / AUTOV6 / STATICV4+STATICV6 / STATICV4+DHCPV6 / STATICV4+AUTOV6 / DHCPV4+STATICV6 / DHCPV4+DHCPV6 / DHCPV4+AUTOV6
+--> 
+--> 				If you choose STATICV4/STATICV6 option, enter IPv4/IPv6 address, netmask/prefix for respective NIC and an optional IPv4/IPv6 default gateway. If left blank, defaults to DHCPV4+DHCPV6 for IP address allocation."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 3, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forwardrules", 
+-->                      category = "Networking Properties", 
+-->                      label = "Comma separated list of forward rules in the form {tcp|udp}/listening-port-number/destination-ip-address:destination-port-number", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "(IPv4 example: tcp/5262/10.110.92.129:9443,tcp/5263/10.20.30.50:7443)"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 4, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ip0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv4 address:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "172.16.66.74", 
+-->                      description = "Enter the IPv4 address for NIC 1, which is used for internet network interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 5, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "routes0", 
+-->                      category = "Networking Properties", 
+-->                      label = "List of IPv4 custom routes for NIC 1 (eth0)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Comma separated list of IPv4 custom routes for NIC 1 (eth0) in the form ipv4-network-address/bits ipv4-gateway-address OR ipv4-network-address/bits.
+--> 
+--> 				For example: 20.2.0.0/16 10.2.0.1, 20.9.0.0/16 10.2.0.2, 10.2.0.1/32"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 6, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6ip0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv6 address:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Enter the IPv6 address for NIC 1, which is used for internet network interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 7, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6Routes0", 
+-->                      category = "Networking Properties", 
+-->                      label = "List of IPv6 custom routes for NIC 1 (eth0)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Comma separated list of IPv6 custom routes for NIC 1 (eth0) in the form ipv6-network-address/prefix ipv6-gateway-address
+--> 
+--> 				For example: fc00:10:112:111::/64 fc00:10:112:111::253, fe80::250:56ff:fe84:ed2f/64 fe80::21c:f9ff:fe75:2800"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 8, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "DNS", 
+-->                      category = "Networking Properties", 
+-->                      label = "DNS server addresses", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Enter space-separated IPv4/IPv6 addresses of the domain name servers for this VM (example:  192.0.2.1 192.0.2.2) for ipv4 (example: fc00:10:112:54::1) for ipv6"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 9, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "netmask0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv4 netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The IPv4 netmask for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 10, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forceNetmask0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv4 overriding netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "255.255.254.0", 
+-->                      description = "The overriden IPv4 netmask for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 11, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ipv6prefix0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv6 netmask/prefix", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "IPv6 netmask or prefix for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 12, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forceIpv6Prefix0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv6 overriding netmask/prefix", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The overriding IPv6 prefix for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 13, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "gateway0", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 1 (eth0) IPv4 gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The default gateway address for this VM."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 14, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "DNS0", 
+-->                      category = "Networking Properties", 
+-->                      label = "Internet DNS", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The domain name servers for this VM (comma separated)."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 15, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "defaultGateway", 
+-->                      category = "Networking Properties", 
+-->                      label = "IPv4 Default Gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "172.16.66.1", 
+-->                      description = "The default gateway address."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 16, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6DefaultGateway", 
+-->                      category = "Networking Properties", 
+-->                      label = "IPv6 Default Gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "fe80::5:73ff:fea0:642", 
+-->                      description = "The default gateway address."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 17, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ip1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv4 address:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Enter the IPv4 address for NIC 2, which is used for management network interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 18, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "routes1", 
+-->                      category = "Networking Properties", 
+-->                      label = "List of IPv4 custom routes for NIC 2 (eth1)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Comma separated list of IPv4 custom routes for NIC 2 (eth1) in the form ipv4-network-address/bits ipv4-gateway-address OR ipv4-network-address/bits
+--> 
+--> 				For example: 20.2.0.0/16 10.2.0.1, 20.9.0.0/16 10.2.0.2, 10.2.0.1/32"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 19, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6ip1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv6 address:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Enter the IPv6 address for NIC 2, which is used for management network interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 20, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6Routes1", 
+-->                      category = "Networking Properties", 
+-->                      label = "List of IPv6 custom routes for NIC 2 (eth1)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Comma separated list of IPv6 custom routes for NIC 2 (eth1) in the form ipv6-network-address/prefix ipv6-gateway-address
+--> 
+--> 				For example: fc00:10:112:111::/64 fc00:10:112:111::253, fe80::250:56ff:fe84:ed2f/64 fe80::21c:f9ff:fe75:2800"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 21, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "netmask1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv4 netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "IPv4 netmask for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 22, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forceNetmask1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv4 overriding netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The overriding IPv4 netmask for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 23, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ipv6prefix1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv6 netmask/prefix", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "IPv6 netmask or prefix for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 24, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forceIpv6Prefix1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv6 overriding netmask/prefix", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The overriding IPv6 prefix for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 25, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "gateway1", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 2 (eth1) IPv4 gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The default gateway address for this VM."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 26, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ip2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv4 address:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Enter the IPv4 address for NIC 3, which is used for for the backend network interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 27, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "routes2", 
+-->                      category = "Networking Properties", 
+-->                      label = "List of IPv4 custom routes for NIC 3 (eth2)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Comma separated list of IPv4 custom routes for NIC 3 (eth2) in the form ipv4-network-address/bits ipv4-gateway-address OR ipv4-network-address/bits
+--> 
+--> 				For example: 20.2.0.0/16 10.2.0.1, 20.9.0.0/16 10.2.0.2, 10.2.0.1/32"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 28, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6ip2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv6 address:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Enter the IPv6 address for NIC 3, which is used for for the backend network interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 29, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "v6Routes2", 
+-->                      category = "Networking Properties", 
+-->                      label = "List of IPv6 custom routes for NIC 3 (eth2)", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Comma separated list of IPv6 custom routes for NIC 3 (eth2) in the form ipv6-network-address/prefix ipv6-gateway-address
+--> 
+--> 				For example: fc00:10:112:111::/64 fc00:10:112:111::253, fe80::250:56ff:fe84:ed2f/64 fe80::21c:f9ff:fe75:2800"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 30, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "netmask2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv4 netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "IPv4 netmask for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 31, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forceNetmask2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv4 overriding netmask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The overriding IPv4 netmask for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 32, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ipv6prefix2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv6 netmask/prefix", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "IPv6 netmask or prefix for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 33, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "forceIpv6Prefix2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv6 overriding netmask/prefix", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The overriding IPv6 prefix for this interface."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 34, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "gateway2", 
+-->                      category = "Networking Properties", 
+-->                      label = "NIC 3 (eth2) IPv4 gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = false, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "The default gateway address for this VM."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 35, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "uagName", 
+-->                      category = "Networking Properties", 
+-->                      label = "Unified Gateway Appliance Name", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Name of the UAG appliance for identification"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 36, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "tlsPortSharingEnabled", 
+-->                      category = "Networking Properties", 
+-->                      label = "TLS Port 443 Sharing", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "True", 
+-->                      value = "True", 
+-->                      description = "Enable TLS port 443 sharing with HA Proxy"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 37, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "ceipEnabled", 
+-->                      category = "Join CEIP", 
+-->                      label = "Join the VMware Customer Experience Improvement Program", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "True", 
+-->                      value = "", 
+-->                      description = "VMware's Customer Experience Improvement Program ("CEIP") provides VMware with information that enables VMware to improve its products and services, to fix problems, and to advise you on how best to deploy and use our products.  As part of the CEIP, VMware collects technical information about your organization's use of VMware products and services on a regular basis in association with your organization's VMware license key(s).  This information does not personally identify any individual.
+--> 
+--> 			Additional information regarding the data collected through CEIP and the purposes for which it is used by VMware is set forth in the Trust and Assurance Center at http://www.vmware.com/trustvmware/ceip.html.
+--> 
+--> 				If you prefer not to participate in VMware's CEIP for this product, you should uncheck the box below. You may join or leave VMware's CEIP for this product at any time.
+-->             "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 38, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "rootPassword", 
+-->                      category = "Password Options", 
+-->                      label = "Password for the root user of this VM", 
+-->                      type = "password", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "********", 
+-->                      description = ""
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 39, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "adminPassword", 
+-->                      category = "Password Options", 
+-->                      label = "Password for the admin user, which enables REST API access", 
+-->                      type = "password", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "********", 
+-->                      description = "Passwords must be at least 8 characters long, contain at least one uppercase and one lowercase letter, one digit, and one special character, which includes ! @ # $ % * ( ).
+--> 
+--> 				Warning: IF YOU LEAVE THE PASSWORD BLANK, AN ADMIN UI USER WILL NOT BE CREATED, AND YOU WILL NOT BE ABLE TO CONFIGURE ANY SETTINGS ON THE APPLIANCE. YOU WILL HAVE TO REDEPLOY THE UAG APPLIANCE WITH A PASSWORD TO USE THE ADMIN UI.
+--> 			"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 40, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "syslogUrl", 
+-->                      category = "System Properties", 
+-->                      label = "Syslog server URL:", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "(Optional) The URL must contain the protocol, host name or IP address, and port number
+--> 				(example: syslog.example.com:514) of the syslog server that logs UAG events.
+-->             "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 41, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "fipsEnabled", 
+-->                      category = "System Properties", 
+-->                      label = "Enabling FIPS mode", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "False", 
+-->                      value = "", 
+-->                      description = "A boolean which governs FIPS mode being enabled/disabled in UAG's OVA file"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 42, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "licenseEdition", 
+-->                      category = "System Properties", 
+-->                      label = "Select UAG edition to deploy", 
+-->                      type = "string["Standard", "Advanced", "Enterprise"]", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "Advanced", 
+-->                      value = "Standard", 
+-->                      description = "Please select the UAG license edition based on the Horizon/Workspace ONE licensing. UAG Enterprise edition includes all UAG features"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 43, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "managementAppliance", 
+-->                      category = "System Properties", 
+-->                      label = "Management Appliance", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "False", 
+-->                      value = "", 
+-->                      description = "A boolean which indicates if this is Management Appliance or UAG"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 44, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "managementApplianceCert", 
+-->                      category = "System Properties", 
+-->                      label = "Management Appliance Cert", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "", 
+-->                      description = "Management Appliance Cert"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 45, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "settingsJSON", 
+-->                      category = "System Properties", 
+-->                      label = "Settings JSON", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "", 
+-->                      value = "{\"kerberosKeyTabSettingsList\":{ \"kerberosKeyTabSettings\": []}, \"kerberosRealmSettingsList\":{ \"kerberosRealmSettingsList\": []}, \"idPExternalMetadataSettingsList\":{ \"idPExternalMetadataSettingsList\": []}, \"edgeServiceSettingsList\":{ \"edgeServiceSettingsList\": [] }, \"systemSettings\":{\"locale\": \"en_US\",\"cipherSuites\": \"TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA\",\"ssl30Enabled\": \"false\",\"tls10Enabled\": \"false\",\"tls11Enabled\": \"true\",\"tls12Enabled\": \"true\",\"sessionTimeout\": \"36000000\",\"adminPasswordExpirationDays\": \"90\",\"uagName\": \"photon-machine.awss.dev\"}, \"authMethodSettingsList\":{ \"authMethodSettingsList\": [] }, \"serviceProviderMetadataList\": { \"items\": [ ] }, \"identityProviderMetaData\": {  }}", 
+-->                      description = "A JSON string that defines the complete Unified Access Gateway configuration via the Settings resource in
+-->                 the REST API. These settings are applied after all others.
+-->             "
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 46, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "vm.vmname", 
+-->                      category = "System Properties", 
+-->                      label = "VM Name", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = "EUC_Unified_Access_Gateway", 
+-->                      value = "", 
+-->                      description = ""
+-->                   }
+-->                }
+-->             ], 
+-->             ipAssignment = (vim.vApp.IPAssignmentInfo) {
+-->                supportedAllocationScheme = <unset>, 
+-->                ipAllocationPolicy = "", 
+-->                supportedIpProtocol = (string) [
+-->                   "IPv4", 
+-->                   "IPv6"
+-->                ], 
+-->                ipProtocol = ""
+-->             }, 
+-->             eula = <unset>, 
+-->             ovfSection = <unset>, 
+-->             ovfEnvironmentTransport = (string) [
+-->                "com.vmware.guestInfo"
+-->             ], 
+-->             installBootRequired = false, 
+-->             installBootStopDelay = 0
+-->          }, 
+-->          ftInfo = (vim.vm.FaultToleranceConfigInfo) null, 
+-->          repConfig = (vim.vm.ReplicationConfigSpec) null, 
+-->          vAppConfigRemoved = <unset>, 
+-->          vAssertsEnabled = <unset>, 
+-->          changeTrackingEnabled = <unset>, 
+-->          firmware = <unset>, 
+-->          maxMksConnections = <unset>, 
+-->          guestAutoLockEnabled = <unset>, 
+-->          managedBy = (vim.ext.ManagedByInfo) null, 
+-->          memoryReservationLockedToMax = <unset>, 
+-->          nestedHVEnabled = <unset>, 
+-->          vPMCEnabled = <unset>, 
+-->          scheduledHardwareUpgradeInfo = (vim.vm.ScheduledHardwareUpgradeInfo) null, 
+-->          vmProfile = <unset>, 
+-->          messageBusTunnelEnabled = <unset>, 
+-->          crypto = (vim.encryption.CryptoSpec) null, 
+-->          migrateEncryption = <unset>
+-->       }, 
+-->       resPoolEntity = <unset>
+-->    }, 
+-->    fileItem = (vim.OvfManager.FileItem) [
+-->       (vim.OvfManager.FileItem) {
+-->          deviceId = "/non-stanb/VirtualLsiLogicController0:0", 
+-->          path = "euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk", 
+-->          compressionMethod = "", 
+-->          chunkSize = <unset>, 
+-->          size = 2350111232, 
+-->          cimType = 17, 
+-->          create = false
+-->       }
+-->    ], 
+-->    warning = <unset>, 
+-->    error = <unset>
+--> }
+--> 
+2018-12-09T22:31:24.129-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:31:24.129-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:31:24.129-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 5.0...
+2018-12-09T22:31:24.129-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 5.0 -> 5.0.0
+2018-12-09T22:31:24.160-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:31:24.160-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:31:24.160-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 4.1...
+2018-12-09T22:31:24.160-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2018-12-09T22:31:27.987-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:31:27.987-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:31:27.987-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 4.1...
+2018-12-09T22:31:27.987-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2018-12-09T22:31:28.331-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:31:28.331-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:31:28.331-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 4.1...
+2018-12-09T22:31:28.331-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] HttpNfcLease:
+--> (vim.HttpNfcLease.Info) {
+-->    lease = 'vim.HttpNfcLease:session[524bc55c-d6ab-3479-5572-6b1af22abc46]52bd6139-f362-6061-b268-7b4c8ee3422f', 
+-->    entity = 'vim.VirtualMachine:vm-62962', 
+-->    deviceUrl = (vim.HttpNfcLease.DeviceUrl) [
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/vm-62962/VirtualLsiLogicController0:0", 
+-->          importKey = "/non-stanb/VirtualLsiLogicController0:0", 
+-->          url = "https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/disk-0.vmdk", 
+-->          sslThumbprint = "98:21:0D:6D:AC:31:FD:74:CA:D2:E7:E0:8B:D7:AD:EE:DA:29:17:42", 
+-->          disk = true, 
+-->          targetId = "disk-0.vmdk", 
+-->          datastoreKey = "https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/", 
+-->          fileSize = <unset>
+-->       }, 
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/vm-62962/nvram", 
+-->          importKey = "/non-stanb/nvram", 
+-->          url = "https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/disk-1.nvram", 
+-->          sslThumbprint = "98:21:0D:6D:AC:31:FD:74:CA:D2:E7:E0:8B:D7:AD:EE:DA:29:17:42", 
+-->          disk = false, 
+-->          targetId = <unset>, 
+-->          datastoreKey = <unset>, 
+-->          fileSize = <unset>
+-->       }
+-->    ], 
+-->    totalDiskCapacityInKB = 20971520, 
+-->    leaseTimeout = 300, 
+-->    hostMap = (vim.HttpNfcLease.DatastoreLeaseInfo) [
+-->       (vim.HttpNfcLease.DatastoreLeaseInfo) {
+-->          datastoreKey = "https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/", 
+-->          hosts = (vim.HttpNfcLease.HostInfo) [
+-->             (vim.HttpNfcLease.HostInfo) {
+-->                url = "https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/", 
+-->                sslThumbprint = "98:21:0D:6D:AC:31:FD:74:CA:D2:E7:E0:8B:D7:AD:EE:DA:29:17:42"
+-->             }
+-->          ]
+-->       }
+-->    ]
+--> }
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Mapped deviceId '/non-stanb/VirtualLsiLogicController0:0' to URL 'https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/disk-0.vmdk'
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Mapped deviceId '/non-stanb/nvram' to URL 'https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/disk-1.nvram'
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing URL...
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Using file size as progress measure
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] ResourceLoop<1>: uploadFiles:upload mapping:[euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk, /non-stanb/VirtualLsiLogicController0:0, 0], progress:0
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] OvfPackageSourceBase getting file source
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Upload disk do no convert
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] HttpWriterFactory web request : https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/disk-0.vmdk
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Constructing URL...
+2018-12-09T22:31:29.284-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Initializing new curl session
+2018-12-09T22:33:21.106-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Closing image source and targets
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Closing writer. Locator: https://atl-esxi-rnd15.vmware.com/nfc/52f69dbc-ca2f-1701-6291-f6272532c095/disk-0.vmdk (Written bytes: 2350111232)
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Upload disk do no convert done
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Curl session torn down
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Locator: euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk, expected digest: f6c07b11a0d310124e3e810853461acabc7fa57d
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[11888] [Originator@6876 sub=Default] Got digest from reader factory: locator = euc-unified-access-gateway-3.5.0.0-11201871-system.vmdk, digest = f6c07b11a0d310124e3e810853461acabc7fa57d
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Ovf convertion finished
+2018-12-09T22:33:21.356-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] [Vi4Target::Complete] started.
+2018-12-09T22:33:23.374-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] HttpNfcLease: state:ready
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 4.1...
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 6.7...
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version1: 6.7 -> 6.7.0
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsing version 4.1...
+2018-12-09T22:33:23.921-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2018-12-09T22:34:06.240-05:00 verbose OVFTool[07244] [Originator@6876 sub=Default] Destruction of ViTarget

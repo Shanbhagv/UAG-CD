@@ -1,0 +1,16 @@
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-137.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-175.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-139.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-206.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-241.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-251.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-252.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-255.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-non-stan1.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-non-stan2.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-HAPTFE1.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-HAPTFE2.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-HAPTBE1.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Settings-HAPTBE2.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Deploy__ts_uag.ini
+.\uagdeploy.ps1 -iniFile H:\UAG-CD\INIs\ESXI\UAG_Deploy_tns_uag.ini

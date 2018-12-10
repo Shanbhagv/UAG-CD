@@ -1,0 +1,41 @@
+------------------------ Build download and upgrade script execution started ---------------------------------
+Build Script started at 12/08/2018 22:00:46
+
+***************Query latest build available on Buildweb and get url to download*************
+
+Found Build Download Url : http://buildweb.eng.vmware.com/ob/api/11187467/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11187467_OVF10.ova
+Found md5 from buildWeb  : C41A81CB3B1955C0C2AFE2318B2C21DF
+ovaFilename              : euc-unified-access-gateway-3.5.0.0-11187467_OVF10.ova
+Non FIPS build found!
+
+*******Check whether latest build available on buildWeb is already consumed*****
+**************New build is available, download starts*************
+ 
+Download UAG ova from Build Web using download url Start 
+Saving ova file to path      : H:\UAG-CD\Installers\euc-unified-access-gateway-3.5.0.0-11187467_OVF10.ova
+Trying to download the ova   : http://buildweb.eng.vmware.com/ob/api/11187467/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11187467_OVF10.ova 
+
+Time taken to download build : 2.23645285666667 minutes
+ 
+******Check if the downloded file exits******
+Pass - Downloaded file EXISTS             : H:\UAG-CD\Installers\euc-unified-access-gateway-3.5.0.0-11187467_OVF10.ova
+Copied file to H:\UAG-CD\Installers\LastInstallerDeployed-ova to check latest build consumption in next run
+
+*****Rename downloded build to static name 'euc-unified-access-gateway.ova' just to make deployment logic simple!****
+Renamed
+*****Validate build downloded completely by Checking if the md5 of the ova file is correct***********
+md5 from buildWeb           : C41A81CB3B1955C0C2AFE2318B2C21DF
+md5 from file               : C41A81CB3B1955C0C2AFE2318B2C21DF
+
+Varified: Successfull download of latest UAG Beta Build
+Build download Script completed at 12/08/2018 22:03:10
+
+Build deployment Script started at 12/08/2018 22:03:10
+
+UAG Auto Deployment on ESXI script called
+ 
+Deployment of UAG on ESXI Complted
+ 
+Build deployment Script completed at 12/08/2018 22:48:10
+
+Time taken to deploy build on all nodes: 45.0011023666667 minutes

@@ -1,0 +1,16 @@
+Build Script started at 12/06/2018 06:27:57
+
+
+Query Build web and get url to download UGA ova Start
+
+
+Found Build Download Url : http://buildweb.eng.vmware.com/ob/api/11139513/deliverable/?file=publish/euc-unified-access-gateway-3.5.0.0-11139513_OVF10.ova
+Found md5 from buildWeb  : B1CB25C994068B770EDE6CDCFB4DF5D6
+Non FIPS build found!
+ovaFilename              : euc-unified-access-gateway-3.5.0.0-11139513_OVF10.ova
+
+ 
+Check if the ova file exits
+ 
+Skipping downloading ova file as the following file aleady exists : H:\UAG-CD\Installers\LastInstallerDeployed-ova\euc-unified-access-gateway-3.5.0.0-11139513_OVF10.ova
+EXIT
